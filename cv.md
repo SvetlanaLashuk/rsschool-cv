@@ -1,19 +1,26 @@
-# **Sviatlana Lashuk** ##
-## **Contacts** ##
+# **Sviatlana Lashuk**
+
+## **Contacts**
+
 * **Phone**: +375 33 656-48-81
 * **Email**: svetlana.lashuk311@gmail.com
 * **Discord rs school**: s_lashuk (@SvetlanaLashuk)
-## **About me** ##
+
+## **About me**
 My core strengths are responsibility, diligence, industriousness. I love learning something new and improve my skills. Hope my efforts allow me to learn a lot about profession frontend developer.
-## **Skills** ##
+
+## **Skills**
+
 * MySQL, PostgreSQL, PL/SQL
-* HTML, CSS
+*  HTML, CSS
 * JavaScript Basics
 * Git, Github
 * C#
 * Java
 * JUnit, Protractor, Jasmine, Selenium
-## **Code example** ##
+
+## **Code example**
+
 ```
 function solution(number){
   let sum = 0;
@@ -24,13 +31,19 @@ function solution(number){
   }
   return sum;
 }
-```
-## **Experience** ##
+ ```
+
+## **Experience**
+
 Work as pl/sql developer during 3,5 years and engaged in the development and maintenance of payroll tasks.
-## **Education** ##
+
+## **Education**
+
 * Yanka Kupala State University of Grodno (Information Technology)
 * QA Automation (IntexSoft Software Development)
 * Cloud development on the Force.com (SENLA Software Engineering Laboratory)
-## **Languages** ##
+
+## **Languages**
+
 * English B2 (Streamline Language School CEFR Level B2)
 * Russian - native speaker
