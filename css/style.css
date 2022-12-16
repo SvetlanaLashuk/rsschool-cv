@@ -218,3 +218,42 @@ pre {
 .project a:hover {
     color: #8e4d57;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: var(--menu-color);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+.footer a:hover {
+    color: black;
+}
+
+.github {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+  }
+
+.github-icon {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.rsschool-icon {
+    margin-right: 30px;
+    background-size: contain;
+}
