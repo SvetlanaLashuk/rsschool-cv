@@ -86,3 +86,135 @@ body {
     padding-top: 3px;
     border-bottom: 2px solid #f6f0ef;
 }
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-profile-logo{
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.section {
+    width: 50%;
+    padding: 35px;
+    padding-bottom: 35px;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+    .profile {
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+    margin: 0;
+    background-color: #8e4d57;
+}
+
+.main-title {
+    margin-bottom: 10px;  
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.section-subtitle {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.section-title {
+    color: #8e4d57;
+    text-align: left;
+    padding: 4px 2px;
+    margin-bottom: 20px;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 170px;
+    padding-top: 3px;
+    border-bottom: 2px solid #8e4d57;
+}
+
+.section-list {
+    margin: 0;
+    padding: 0;  
+    list-style: none;
+}
+
+.section-item {
+    position: relative;
+    margin: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.skill,
+.lang, 
+.edu {
+    padding-left: 30px;
+}
+
+.skill::before,
+.edu::before,
+.lang::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    width: 10px;
+    height: 10px; 
+    border: 1px solid #8e4d57;
+    background-color: #8e4d57;
+    border-radius: 50%;
+}
+
+.contact li p {
+    display: inline;
+    vertical-align: middle;
+}
+
+pre {
+    margin-top: 10px;
+    font-family: monospace;
+    font-size: 18px;
+    background-color: #f1e9e8;
+}
+
+.project-link {
+    text-decoration: none;
+    transition: .3s;
+    padding: 0 10px;
+    color: black;
+}
+
+.project a:hover {
+    color: #8e4d57;
+}
